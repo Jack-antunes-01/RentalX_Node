@@ -1,4 +1,4 @@
-import { Specification } from "../../model/Specifications";
+import { Specification } from "../../entities/Specifications";
 import { SpecificationsRepository } from "../../repositories/implementations/SpecificationsRepository";
 
 class ListSpecificationsUseCase {
