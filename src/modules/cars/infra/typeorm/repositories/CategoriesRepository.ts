@@ -1,6 +1,7 @@
-import { Category } from "@modules/cars/entities/Category";
 import { getRepository, Repository } from "typeorm";
-import { ICategoriesRepository } from "../ICategoriesRepository";
+
+import { ICategoriesRepository } from "@modules/cars/repositories/ICategoriesRepository";
+import { Category } from "../entities/Category";
 
 interface ICreateCategoryDTO {
   name: string;
