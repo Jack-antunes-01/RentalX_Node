@@ -4,59 +4,60 @@
 
 **Regra de negócio - RN**
 
-# Cadastro do veículo
+# Cadastro do veículo<br />
 
-**RF**
-[ ] Deve ser possível cadastrar um veículo.
-[ ] Deve ser possível listar todas as categorias
+**RF**<br />
+[ ] Deve ser possível cadastrar um veículo.<br />
+[ ] Deve ser possível listar todas as categorias<br />
 
-**RN**
-[ ] Não deve ser possível cadastrar um veículo com uma placa já existente.
-[ ] Não deve ser possível alterar a placa de um veículo já cadastrado.
-[ ] O veículo deve ser cadastrado com "available" => true, por padrão.
-[ ] O usuário responsável pelo cadastro deve ser um usuário administrador.
+**RN**<br />
+[ ] Não deve ser possível cadastrar um veículo com uma placa já existente.<br />
+[ ] Não deve ser possível alterar a placa de um veículo já cadastrado.<br />
+[ ] O veículo deve ser cadastrado com "available" => true, por padrão.<br />
+[ ] O usuário responsável pelo cadastro deve ser um usuário administrador.<br />
 
-# Listagem de veículos
+# Listagem de veículos<br />
 
-**RF**
-[ ] Deve ser possível listar todos os veículos disponíveis.
-[ ] Deve ser possível listar todos os veículos disponíveis pela marca.
-[ ] Deve ser possível listar todos os veículos disponíveis pelo nome da categoria.
-[ ] Deve ser possível listar todos os veículos disponíveis pelo nome do veículo.
+**RF**<br />
+[ ] Deve ser possível listar todos os veículos disponíveis.<br />
+[ ] Deve ser possível listar todos os veículos disponíveis pela marca.<br />
+[ ] Deve ser possível listar todos os veículos disponíveis pelo nome da categoria.<br />
+[ ] Deve ser possível listar todos os veículos disponíveis pelo nome do veículo.<br />
 
-**RN**
-[ ] O usuário não precisa estar autenticado no sistema.
+**RN**<br />
+[ ] O usuário não precisa estar autenticado no sistema.<br />
 
-# Cadastro de especificação no veículo
+# Cadastro de especificação no veículo<br />
 
-**RF**
-[ ] Deve ser possível cadastrar uma especificação para um veículo.
-[ ] Deve ser possível listar as especificações
-[ ] Deve ser possível listar os veículos
+**RF**<br />
+[ ] Deve ser possível cadastrar uma especificação para um veículo.<br />
+[ ] Deve ser possível listar as especificações<br />
+[ ] Deve ser possível listar os veículos<br />
 
-**RN**
-[ ] Não deve ser possível cadastrar uma especificação para um veículo não cadastrado.
-[ ] Não deve ser possível cadastrar uma especificação já existente para o mesmo veículo.
-[ ] O usuário responsável pelo cadastro deve ser um usuário administrador.
+**RN**<br />
+[ ] Não deve ser possível cadastrar uma especificação para um veículo não cadastrado.<br />
+[ ] Não deve ser possível cadastrar uma especificação já existente para o mesmo veículo.<br />
+[ ] O usuário responsável pelo cadastro deve ser um usuário administrador.<br />
 
-# Cadastro de imagens do veículo
+# Cadastro de imagens do veículo<br />
 
-**RF**
-[ ] Deve ser possível cadastrar a imagem do veículo.
-[ ] Deve ser possível listar todos os carros
+**RF**<br />
+[ ] Deve ser possível cadastrar a imagem do veículo.<br />
+[ ] Deve ser possível listar todos os carros<br />
 
-**RNF**
-[ ] Utilizar o multer para upload dos arquivos.
+**RNF**<br />
+[ ] Utilizar o multer para upload dos arquivos.<br />
 
-**RN**
-[ ] Deve ser possível cadastrar mais de uma imagem para um único veículo.
-[ ] O usuário responsável pelo cadastro deve ser um usuário administrador.
+**RN**<br />
+[ ] Deve ser possível cadastrar mais de uma imagem para um único veículo.<br />
+[ ] O usuário responsável pelo cadastro deve ser um usuário administrador.<br />
 
-# Aluguel de veículo
+# Aluguel de veículo<br />
 
-**RF**
-[ ] Deve ser possível cadastrar um aluguel.
+**RF**<br />
+[ ] Deve ser possível cadastrar um aluguel.<br />
 
-**RN**
-[ ] O aluguel deve ter duração mínima de 24 horas.
-[ ] Não deve ser possível cadastrar um novo aluguel caso já exista um em aberto para o mesmo usuário.[ ] Não deve ser possível cadastrar um novo aluguel caso já exista um em aberto para o mesmo veículo.
+**RN**<br />
+[ ] O aluguel deve ter duração mínima de 24 horas.<br />
+[ ] Não deve ser possível cadastrar um novo aluguel caso já exista um em aberto para o mesmo usuário.<br />
+[ ] Não deve ser possível cadastrar um novo aluguel caso já exista um em aberto para o mesmo veículo.
