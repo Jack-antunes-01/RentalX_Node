@@ -12,7 +12,7 @@
 **RN**<br />
 [x] Não deve ser possível cadastrar um veículo com uma placa já existente.<br />
 [x] O veículo deve ser cadastrado com "available" => true, por padrão.<br />
-[ ] \* O usuário responsável pelo cadastro deve ser um usuário administrador.<br />
+[x] O usuário responsável pelo cadastro deve ser um usuário administrador.<br />
 
 # Listagem de veículos<br />
 
