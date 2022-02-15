@@ -7,14 +7,12 @@
 # Cadastro do veículo<br />
 
 **RF**<br />
-[ ] Deve ser possível cadastrar um veículo.<br />
-[ ] Deve ser possível listar todas as categorias<br />
+[x] Deve ser possível cadastrar um veículo.<br />
 
 **RN**<br />
-[ ] Não deve ser possível cadastrar um veículo com uma placa já existente.<br />
-[ ] Não deve ser possível alterar a placa de um veículo já cadastrado.<br />
-[ ] O veículo deve ser cadastrado com "available" => true, por padrão.<br />
-[ ] O usuário responsável pelo cadastro deve ser um usuário administrador.<br />
+[x] Não deve ser possível cadastrar um veículo com uma placa já existente.<br />
+[x] O veículo deve ser cadastrado com "available" => true, por padrão.<br />
+[ ] \* O usuário responsável pelo cadastro deve ser um usuário administrador.<br />
 
 # Listagem de veículos<br />
 
