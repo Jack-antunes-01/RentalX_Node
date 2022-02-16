@@ -17,13 +17,13 @@
 # Listagem de veículos<br />
 
 **RF**<br />
-[ ] Deve ser possível listar todos os veículos disponíveis.<br />
-[ ] Deve ser possível listar todos os veículos disponíveis pela marca.<br />
-[ ] Deve ser possível listar todos os veículos disponíveis pelo nome da categoria.<br />
-[ ] Deve ser possível listar todos os veículos disponíveis pelo nome do veículo.<br />
+[x] Deve ser possível listar todos os veículos disponíveis.<br />
+[x] Deve ser possível listar todos os veículos disponíveis pela marca.<br />
+[x] Deve ser possível listar todos os veículos disponíveis pelo nome da categoria.<br />
+[x] Deve ser possível listar todos os veículos disponíveis pelo nome do veículo.<br />
 
 **RN**<br />
-[ ] O usuário não precisa estar autenticado no sistema.<br />
+[x] O usuário não precisa estar autenticado no sistema.<br />
 
 # Cadastro de especificação no veículo<br />
 
