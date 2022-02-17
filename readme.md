@@ -29,8 +29,6 @@
 
 **RF**<br />
 [ ] Deve ser possível cadastrar uma especificação para um veículo.<br />
-[ ] Deve ser possível listar as especificações<br />
-[ ] Deve ser possível listar os veículos<br />
 
 **RN**<br />
 [ ] Não deve ser possível cadastrar uma especificação para um veículo não cadastrado.<br />
