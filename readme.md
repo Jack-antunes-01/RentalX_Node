@@ -28,18 +28,17 @@
 # Cadastro de especificação no veículo<br />
 
 **RF**<br />
-[ ] Deve ser possível cadastrar uma especificação para um veículo.<br />
+[x] Deve ser possível cadastrar uma especificação para um veículo.<br />
 
 **RN**<br />
-[ ] Não deve ser possível cadastrar uma especificação para um veículo não cadastrado.<br />
-[ ] Não deve ser possível cadastrar uma especificação já existente para o mesmo veículo.<br />
-[ ] O usuário responsável pelo cadastro deve ser um usuário administrador.<br />
+[x] Não deve ser possível cadastrar uma especificação para um veículo não cadastrado.<br />
+[x] Não deve ser possível cadastrar uma especificação já existente para o mesmo veículo.<br />
+[x] O usuário responsável pelo cadastro deve ser um usuário administrador.<br />
 
 # Cadastro de imagens do veículo<br />
 
 **RF**<br />
 [ ] Deve ser possível cadastrar a imagem do veículo.<br />
-[ ] Deve ser possível listar todos os carros<br />
 
 **RNF**<br />
 [ ] Utilizar o multer para upload dos arquivos.<br />
