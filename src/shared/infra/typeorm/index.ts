@@ -10,12 +10,14 @@ import { Rental } from "@modules/rentals/infra/typeorm/entities/Rental";
 export default async (host = "database"): Promise<Connection> => {
   const defaultOptions = await getConnectionOptions();
 
-  Object.assign(defaultOptions, {
-    host,
-  });
-
-  return createConnection({
-    ...defaultOptions,
-    entities: [Category, Specification, User, Car, CarImage, Rental],
-  });
+  return createConnection(
+    Object.assign(defaultOptions, {
+      host: process.env.NODE_ENV === "test" ? "localhost" : host,
+      entities: [Category, Specification, User, Car, CarImage, Rental],
+      database:
+        process.env.NODE_ENV === "test"
+          ? "rentx_test"
+          : defaultOptions.database,
+    })
+  );
 };
