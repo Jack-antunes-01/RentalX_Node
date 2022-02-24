@@ -61,21 +61,32 @@
 # Aluguel de veículo<br />
 
 **RF**<br />
-[] Deve ser possível realizar a devolução de um carro.<br />
+[x] Deve ser possível realizar a devolução de um carro.<br />
 
 **RN**<br />
-[] Se o carro for devolvido com menos de 24 horas, deverá ser cobrado diária completa.<br />
-[] Ao realizar devolução, o carro deverá ser liberado para outro aluguel.<br />
-[] Ao realizar a devolução, o usuário deverá ser liberado para outro aluguel.<br />
-[] Ao realizar a devolução, deverá ser calculado o total do aluguel.<br />
-[] Caso o horário de devolução seja superior ao horário previsto de entrega, deverá ser cobrado multa proporcional aos dias de atraso.<br />
-[] Caso haja multa, deverá ser somado ao total do aluguel.<br />
-[] O usuário precisa estar autenticado no sistema.<br />
+[x] Se o carro for devolvido com menos de 24 horas, deverá ser cobrado diária completa.<br />
+[x] Ao realizar devolução, o carro deverá ser liberado para outro aluguel.<br />
+[x] Ao realizar a devolução, o usuário deverá ser liberado para outro aluguel.<br />
+[x] Ao realizar a devolução, deverá ser calculado o total do aluguel.<br />
+[x] Caso o horário de devolução seja superior ao horário previsto de entrega, deverá ser cobrado multa proporcional aos dias de atraso.<br />
+[x] Caso haja multa, deverá ser somado ao total do aluguel.<br />
+[x] O usuário precisa estar autenticado no sistema.<br />
 
 # Aluguel de veículo<br />
 
 **RF**<br />
-[] Deve ser possível realizar a busca de todos os aluguéis para o usuário.<br />
+[x] Deve ser possível realizar a busca de todos os aluguéis para o usuário.<br />
 
 **RN**<br />
-[] O usuário deve estar logado na aplicação.<br />
+[x] O usuário deve estar logado na aplicação.<br />
+
+# Recuperar senha<br />
+
+**RF**<br />
+[] Deve ser possível o usuário recuperar a senha informando o e-mail.<br />
+[] O usuário deve receber um e-mail com o passo a passo para a recuperação da senha.<br />
+[] O usuário deve conseguir inserir uma nova senha.<br />
+
+**RN**<br />
+[] O usuário precisa informar uma nova senha.<br />
+[] O link enviado para a recuperação deve expirar em 3 horas.<br />
