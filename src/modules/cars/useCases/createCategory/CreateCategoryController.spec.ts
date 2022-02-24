@@ -34,7 +34,7 @@ describe("Create category controller", () => {
       password: "admin",
     });
 
-    const { token } = responseToken.body;
+    const { refresh_token: token } = responseToken.body;
 
     const response = await request(app)
       .post("/categories")
@@ -53,7 +53,7 @@ describe("Create category controller", () => {
       password: "admin",
     });
 
-    const { token } = responseToken.body;
+    const { refresh_token: token } = responseToken.body;
 
     const response = await request(app)
       .post("/categories")
