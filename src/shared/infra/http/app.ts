@@ -2,6 +2,8 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
+import "reflect-metadata";
+
 import swaggerUi from "swagger-ui-express";
 import express, { NextFunction, Request, Response } from "express";
 

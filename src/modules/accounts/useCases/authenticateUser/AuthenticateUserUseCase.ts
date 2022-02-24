@@ -41,6 +41,7 @@ class AuthenticateUserUseCase {
       expires_in_refresh_token,
       expires_refresh_token_days,
     } = process.env;
+
     const user = await this.usersRepository.findByEmail(email);
 
     if (!user) {

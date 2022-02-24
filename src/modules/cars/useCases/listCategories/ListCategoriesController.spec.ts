@@ -34,7 +34,7 @@ describe("List categories", () => {
       password: "admin",
     });
 
-    const { token } = responseToken.body;
+    const { refresh_token: token } = responseToken.body;
 
     await request(app)
       .post("/categories")
