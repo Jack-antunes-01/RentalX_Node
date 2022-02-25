@@ -15,9 +15,8 @@ export async function ensureAuthenticated(
   next: NextFunction
 ) {
   const authHeader = req.headers.authorization;
-  const usersTokensRepository = new UsersTokensRepository();
 
-  const { secret_refresh_token } = process.env;
+  const { secret_token } = process.env;
 
   if (!authHeader) {
     throw new AppError("Token missing", 401);
@@ -26,16 +25,7 @@ export async function ensureAuthenticated(
   const [, token] = authHeader.split(" ");
 
   try {
-    const { sub: user_id } = verify(token, secret_refresh_token) as IPayload;
-
-    const user = await usersTokensRepository.findByUserIdAndRefreshToken(
-      user_id,
-      token
-    );
-
-    if (!user) {
-      throw new AppError("Invalid or expired token", 401);
-    }
+    const { sub: user_id } = verify(token, secret_token) as IPayload;
 
     req.user = {
       id: user_id,
